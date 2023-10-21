@@ -18,7 +18,7 @@ class MainWindow(QMainWindow):
         self.label = QLabel('Enter a four-digit number:')
         self.label.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
 
-        self.label2 = QLabel('Cow - the number is out of place.\nBull - the number in its place.')
+        self.label2 = QLabel('Cow - the digit is out of place.\nBull - the digit in its place.')
         self.label2.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
 
         self.input = QLineEdit(self)
